@@ -1,0 +1,26 @@
+# Ignore API keys
+.env
+.env.*
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Database files (optional — if you don’t want to upload your DB)
+*.db
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE / editor files (VSCode example)
+.vscode/
+.idea/
+
+# Python virtual environment
+venv/
+env/
