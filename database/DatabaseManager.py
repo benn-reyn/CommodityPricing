@@ -104,7 +104,6 @@ class DatabaseManager:
             return [dict(row) for row in rows]
 
 
-# Example use
 if __name__ == "__main__":
     db = DatabaseManager("commodity_prices.db")
     prices = db.get_latest_prices()
